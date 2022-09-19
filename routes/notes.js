@@ -22,9 +22,9 @@ notes.post('/', (req, res) => {
     };
 
     readAndAppend(newNote, './db/db.json');
-    console.log(`Note added successfully 🚀`);
+    res.json(`Note added successfully 🚀`);
   } else {
-    console.log('Error in adding note');
+    res.error('Error in adding note');
   }
 });
 
@@ -41,7 +41,7 @@ notes.delete('/:id', (req, res) => {
       writeToFile('./db/db.json', result);
 
       // Respond to the DELETE request
-      console.log(`Note ${noteId} has been deleted 🗑️`);
+      res.json(`Note ${noteId} has been deleted 🗑️`);
     });
 });
 
