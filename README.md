@@ -30,13 +30,15 @@ Revise the knowledge gained from the previous week in coding bootcamp on Express
 
 ## Usage
 Required Information:
-- Name and text of the notes that you wish to be saved
+- Name and text of the notes that you wish to be saved.
 
 
 ### Installation
-1) Launch the app via the following link 
+1) Launch the app via the following link: 
 
-2) Follow the onscreen buttons to save and delete notes as you desire
+https://xpress-notes-m11c.herokuapp.com/
+
+2) Follow the onscreen buttons to save and delete notes as you desire.
 
 Gif of live application (sample)
 
@@ -45,7 +47,7 @@ Gif of live application (sample)
 
    
 ## Credits
-University of Birmingham for starter code
+University of Birmingham for starter code.
 
 
 ## License
